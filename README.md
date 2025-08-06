@@ -12,16 +12,16 @@ Tujuan utama dari proyek ini adalah untuk menganalisis faktor-faktor yang paling
 
 2. Pra-pemrosesan Data: Menangani data yang hilang, mengkodekan variabel kategorikal, dan melakukan feature engineering jika diperlukan untuk mempersiapkan data untuk modeling.
 
-3. Pembangunan Model Regresi: Melatih berbagai model regresi (misalnya, Linear Regression, Random Forest Regressor, Gradient Boosting) untuk memprediksi harga mobil.
+3. Pembangunan Model Regresi: Melatih berbagai model regresi (misalnya, Linear Regression) untuk memprediksi harga mobil.
 
-4. Evaluasi Model: Mengevaluasi performa model menggunakan metrik seperti Mean Absolute Error (MAE), Mean Squared Error (MSE), dan R-squared untuk memilih model terbaik.
+4. Evaluasi Model: Mengevaluasi performa model menggunakan metrik seperti Mean Squared Error (MSE), dan R-squared untuk memilih model terbaik.
 
 5. Interpretasi Hasil: Menganalisis fitur mana yang memiliki pengaruh paling signifikan dalam menentukan harga jual mobil.
 
 **📊 Deskripsi Dataset**
 Dataset ini berisi 10.000 entri dan beberapa kolom yang memberikan informasi rinci tentang setiap mobil. Berikut adalah deskripsi setiap kolom:
 
-Brand: Merek mobil (contoh: Toyota, BMW, Ford).
+Make: Merek mobil (contoh: Toyota, BMW, Ford).
 
 Model: Model mobil (contoh: Corolla, Focus, X5).
 
@@ -34,10 +34,6 @@ Fuel_Type: Jenis bahan bakar yang digunakan (contoh: Bensin, Diesel).
 Transmission: Tipe transmisi (contoh: Otomatis, Manual).
 
 Mileage: Total jarak tempuh mobil dalam kilometer (km).
-
-Doors: Jumlah pintu mobil (umumnya 2, 3, 4, atau 5).
-
-Owner_Count: Jumlah pemilik sebelumnya.
 
 Price: Harga jual mobil yang diperkirakan. Ini adalah variabel target.
 
